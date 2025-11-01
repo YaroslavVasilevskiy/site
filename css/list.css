@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Great+Vibes&family=Rubik+Bubbles&family=Rubik+Burned&family=Rubik+Gemstones&family=Rubik+Moonrocks&display=swap');
+body{
+    background-color: lightgoldenrodyellow;
+}
+p{
+    font-family: "Rubik Gemstones", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    background-color: lightcoral;
+    color: crimson;
+    text-align: center;
+}
+ul,ol{
+    font-size: 30px;
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+.l1 li::marker{
+    color: black;
+    font-size: 1.2em;
+}
+.l2{
+    padding-left: 20px;
+}
+ol{
+    margin: 30px;
+}
+@counter-style circled-alpha{
+  system: fixed;
+  symbols: Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ️ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ;
+  suffix: " ";
+}
+@counter-style markers{
+  system: cyclic;
+  symbols: 🐸 🐊 🐢 🦎 🐍 🐲 🐉 🦕 🦖 🐛 🦗 🦠 🦚;
+  suffix: " ";
+}

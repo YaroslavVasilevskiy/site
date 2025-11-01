@@ -1,0 +1,42 @@
+body{
+    background-color: lightblue;
+    
+}
+table{
+    border: 5px double beige;
+    width: 50px;
+    font-size: 30px;
+    margin: auto;
+}
+th,td{
+    border: 2px solid beige;
+    width: 25%;
+}
+tr:hover{
+    background-color:azure;
+}
+tr:hover{
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:turquoise;
+    font-size: 1.2em;
+}
+tr:nth-child(odd){
+    background-color: lightcyan;
+}
+tr:nth-child(even){
+    background-color: lemonchiffon;
+}
+.es{
+    text-align: right;
+    vertical-align: bottom;
+    border: burlywood dashed;
+}
+caption{
+    font-size: 36px;
+    text-transform: uppercase;
+    background: radial-gradient(beige 30%, cyan);
+    font-family: cursive;
+    font-weight: bold;
+}

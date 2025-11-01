@@ -1,0 +1,54 @@
+body{
+    background-color:mistyrose;
+    background-image: url(https://img1.picmix.com/output/stamp/normal/5/2/1/4/1744125_d6c21.gif);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-attachment: fixed;
+    background-size: 100px;
+}
+p{
+    background-color: aqua;
+    color:plum;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    display: inline-block;
+}
+div{
+    width: 500px;
+    height: 500px;
+    border-width: 50px;
+    margin: 30px;
+}   
+#d1{
+    background-image:
+    linear-gradient(-90deg, rgb(161 238 248 / 0.5), rgb(255 174 235 / 0.5)),
+    url(https://previews.123rf.com/images/tiff20/tiff201710/tiff20171000054/88132784-purple-and-blue-watercolor-background-hand-drawn-illustration.jpg);
+    background-size: cover;
+    border-style: double;
+    border-color:lavender;
+}
+#d2{
+    background-image: url(https://www.publicdomainpictures.net/pictures/400000/velka/einfarbig-hintergrund-textur-1619901807m5R.jpg);
+    background-size: cover;
+    border-style: solid;
+    border-image: repeating-radial-gradient(lightcyan,lightblue 5%) 30;
+    box-shadow: 0px 0px 100px lightblue;
+}
+#img1{
+    display: block;
+    margin: auto;
+    border-radius: 18%;
+    box-shadow: 10px 10px 10px lightpink,
+    -10px -10px 10px lightblue,
+    10px -10px 10px lightyellow,
+    -10px 10px 10px plum;
+}
+#img2{
+    margin: 30px;
+    width: 50%;
+    border: 30px groove papayawhip;
+    box-shadow: 10px 10px 5px darkgoldenrod;
+    background-image: url(https://images.prom.ua/6673686814_w600_h600_legki-malyunki-dlya.jpg);
+}

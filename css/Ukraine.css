@@ -1,0 +1,47 @@
+h1{
+    font-weight: 200;
+    font-family: 'Linux Libertine', 'Georgia', 'Times', 'Source Serif 4', serif;
+}
+.h2{
+    border-bottom: 1px solid gray;
+}
+h2{
+    color: darkgray;
+    text-align: left;
+}
+p{
+    text-align: justify;
+    line-height: 24px;
+    font-family: sans-serif;
+    text-indent: 24px;
+}
+.fr{
+    float: right;
+    border: 1px grey solid;
+    padding: 5px;
+}
+.fr figcaption{
+    color: #222;
+    font-family: sans-serif;
+}
+.fl{
+    float: left;
+    border: 1px grey solid;
+    padding: 5px;
+}
+.fl figcaption{
+    color: #222;
+    font-family: sans-serif;
+}
+.a1{
+    text-decoration: none;
+}
+.a1:hover{
+    text-decoration-line: underline;
+}
+.a1:active{
+    color: navy;
+}
+.a1:visited{
+    color: green;
+}
